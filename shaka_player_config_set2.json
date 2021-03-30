@@ -3,21 +3,21 @@
 		"retryParameters":
 
 		{
-			"maxAttempts": 2,
+			"maxAttempts": 6,
 			"baseDelay": 1000,
 			"backoffFactor": 2,
 			"fuzzFactor": 0.5,
 			"timeout": 30000
 		},
-		"bufferingGoal": 16,
+		"bufferingGoal": 64,
 		"rebufferingGoal": 8
 	},
 	"abr":
 
 	{
 		"defaultBandwidthEstimate": 1500000,
-		"switchInterval": 8,
-		"bandwidthUpgradeTarget": 0.7,
+		"switchInterval": 4,
+		"bandwidthUpgradeTarget": 0.6,
 		"bandwidthDowngradeTarget": 0.8
 	}
 }
