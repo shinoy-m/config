@@ -13,7 +13,7 @@
 	"abr": {
 		"defaultBandwidthEstimate": 1500000,
 		"switchInterval": 4,
-		"bandwidthUpgradeTarget": 0.5,
-		"bandwidthDowngradeTarget": 0.7
+		"bandwidthUpgradeTarget": 0.4,
+		"bandwidthDowngradeTarget": 0.5
 	}
 }
