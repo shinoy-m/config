@@ -1,8 +1,6 @@
 {
 	"streaming": {
-		"retryParameters":
-
-		{
+		"retryParameters": {
 			"maxAttempts": 6,
 			"baseDelay": 1000,
 			"backoffFactor": 2,
@@ -12,9 +10,7 @@
 		"bufferingGoal": 64,
 		"rebufferingGoal": 16
 	},
-	"abr":
-
-	{
+	"abr": {
 		"defaultBandwidthEstimate": 1500000,
 		"switchInterval": 4,
 		"bandwidthUpgradeTarget": 0.5,
