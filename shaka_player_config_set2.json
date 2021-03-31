@@ -10,14 +10,14 @@
 			"timeout": 30000
 		},
 		"bufferingGoal": 64,
-		"rebufferingGoal": 8
+		"rebufferingGoal": 16
 	},
 	"abr":
 
 	{
 		"defaultBandwidthEstimate": 1500000,
 		"switchInterval": 4,
-		"bandwidthUpgradeTarget": 0.6,
-		"bandwidthDowngradeTarget": 0.8
+		"bandwidthUpgradeTarget": 0.5,
+		"bandwidthDowngradeTarget": 0.7
 	}
 }
