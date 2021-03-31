@@ -3,7 +3,7 @@
 		"retryParameters":
 
 		{
-			"maxAttempts": 2,
+			"maxAttempts": 6,
 			"baseDelay": 1000,
 			"backoffFactor": 2,
 			"fuzzFactor": 0.5,
