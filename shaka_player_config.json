@@ -7,13 +7,21 @@
 			"fuzzFactor": 0.5,
 			"timeout": 30000
 		},
-		"bufferingGoal": 64,
-		"rebufferingGoal": 16
+		"bufferingGoal": 32,
+		"rebufferingGoal": 32
 	},
 	"abr": {
-		"defaultBandwidthEstimate": 1500000,
+		"defaultBandwidthEstimate": 700000,
 		"switchInterval": 4,
-		"bandwidthUpgradeTarget": 0.4,
-		"bandwidthDowngradeTarget": 0.5
+		"bandwidthUpgradeTarget": 0.7,
+		"bandwidthDowngradeTarget": 0.8
+	},
+	"manifest": {
+		"dash": {
+			"ignoreMinBufferTime": true
+		}
+	},
+	"dash": {
+		"ignoreMinBufferTime": true
 	}
 }
