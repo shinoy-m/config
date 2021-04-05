@@ -1,18 +1,11 @@
 {
 	"streaming": {
-		"retryParameters": {
-			"maxAttempts": 6,
-			"baseDelay": 1000,
-			"backoffFactor": 2,
-			"fuzzFactor": 0.5,
-			"timeout": 30000
-		},
 		"bufferingGoal": 8,
-		"rebufferingGoal": 32
+		"rebufferingGoal": 8
 	},
 	"abr": {
 		"defaultBandwidthEstimate": 700000,
-		"switchInterval": 4,
+		"switchInterval": 24,
 		"bandwidthUpgradeTarget": 0.7,
 		"bandwidthDowngradeTarget": 0.8
 	},
@@ -20,5 +13,8 @@
 		"dash": {
 			"ignoreMinBufferTime": true
 		}
-	}
+	},
+	"streaming.bufferingGoal": 8,
+	"streaming.rebufferingGoal": 8,
+	"abr.switchInterval": 24
 }
