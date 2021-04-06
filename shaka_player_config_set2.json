@@ -2,7 +2,8 @@
 	"showConfirmation": true,
 	"streaming": {
 		"bufferingGoal": 32,
-		"rebufferingGoal": 16
+		"rebufferingGoal": 16,
+		"bufferBehind": 30
 	},
 	"abr": {
 		"defaultBandwidthEstimate": 700000,
