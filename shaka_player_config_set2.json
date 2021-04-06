@@ -9,13 +9,7 @@
 		"bandwidthUpgradeTarget": 0.7,
 		"bandwidthDowngradeTarget": 0.8
 	},
-	"manifest": {
-		"dash": {
-			"ignoreMinBufferTime": true
-		}
-	},
-	"streaming.bufferingGoal": 32,
-	"streaming.rebufferingGoal": 16,
-	"abr.switchInterval": 24,
-	"manifest.dash.ignoreMinBufferTime": true
+	"dashManifest": {
+		"ignoreMinBufferTime": true
+	}
 }
