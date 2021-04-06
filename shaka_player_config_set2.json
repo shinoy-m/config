@@ -1,4 +1,5 @@
-{
+{	
+	"showConfirmation": true,
 	"streaming": {
 		"bufferingGoal": 32,
 		"rebufferingGoal": 16
