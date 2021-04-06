@@ -1,7 +1,7 @@
 {
 	"streaming": {
-		"bufferingGoal": 8,
-		"rebufferingGoal": 8
+		"bufferingGoal": 32,
+		"rebufferingGoal": 16
 	},
 	"abr": {
 		"defaultBandwidthEstimate": 700000,
@@ -14,7 +14,8 @@
 			"ignoreMinBufferTime": true
 		}
 	},
-	"streaming.bufferingGoal": 8,
-	"streaming.rebufferingGoal": 8,
-	"abr.switchInterval": 24
+	"streaming.bufferingGoal": 32,
+	"streaming.rebufferingGoal": 16,
+	"abr.switchInterval": 24,
+	"manifest.dash.ignoreMinBufferTime": true
 }
