@@ -11,7 +11,9 @@
 		"bandwidthUpgradeTarget": 0.7,
 		"bandwidthDowngradeTarget": 0.8
 	},
-	"dashManifest": {
-		"ignoreMinBufferTime": true
+	"manifest": {
+		"dash": {
+			"ignoreMinBufferTime": true
+		}
 	}
 }
