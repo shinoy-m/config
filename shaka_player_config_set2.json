@@ -9,16 +9,16 @@
 			"fuzzFactor": 0.5,
 			"timeout": 30000
 		},
-		"bufferingGoal": 32,
-		"rebufferingGoal": 16,
+		"bufferingGoal": 64,
+		"rebufferingGoal": 8,
 		"bufferBehind": 32
 	},
 	"abr":
 
 	{
 		"defaultBandwidthEstimate": 1000000,
-		"switchInterval": 8,
-		"bandwidthUpgradeTarget": 0.85,
-		"bandwidthDowngradeTarget": 0.95
+		"switchInterval": 16,
+		"bandwidthUpgradeTarget": 0.7,
+		"bandwidthDowngradeTarget": 0.8
 	}
 }
