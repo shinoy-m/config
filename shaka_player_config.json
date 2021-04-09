@@ -9,7 +9,7 @@
 			"fuzzFactor": 0.5,
 			"timeout": 30000
 		},
-		"bufferingGoal": 16,
+		"bufferingGoal": 32,
 		"rebufferingGoal": 8,
 		"bufferBehind": 32
 	},
@@ -18,7 +18,7 @@
 	{
 		"defaultBandwidthEstimate": 1000000,
 		"switchInterval": 16,
-		"bandwidthUpgradeTarget": 0.7,
-		"bandwidthDowngradeTarget": 0.8
+		"bandwidthUpgradeTarget": 0.75,
+		"bandwidthDowngradeTarget": 0.85
 	}
 }
