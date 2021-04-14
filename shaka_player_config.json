@@ -11,7 +11,7 @@
 		},
 		"bufferingGoal": 64,
 		"rebufferingGoal": 8,
-		"bufferBehind": 16
+		"bufferBehind": 8
 	},
 	"abr":
 
