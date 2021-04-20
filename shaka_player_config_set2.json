@@ -11,12 +11,12 @@
 		},
 		"bufferingGoal": 32,
 		"rebufferingGoal": 8,
-		"bufferBehind": 8
+		"bufferBehind": 24
 	},
 	"abr":
 
 	{
-		"defaultBandwidthEstimate": 800000,
+		"defaultBandwidthEstimate": 500000,
 		"switchInterval": 16,
 		"bandwidthUpgradeTarget": 0.85,
 		"bandwidthDowngradeTarget": 0.95
